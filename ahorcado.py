@@ -22,6 +22,5 @@ while intentos >= 1: #Si le quedan intentos entra y mira si esta la letra o no
             print(f"{letra} No esta, te quedan {intentos} intentos mas")
             intentos -= 1
             letra = input ("mete una letra: ") #le pedimos que meta cuando falle y le queden oportunidades
-
 else:
     print("PERDISTE......La palabra que se escondia es: ",aleatorio,)  # Cuando tienes 6 fallos dice que perdiste
