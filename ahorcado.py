@@ -17,7 +17,7 @@ print (letras) #aqui estan todas las letras separadas
 letra = input ("mete una letra: ") #le pedimos que meta una letra para empezar a jugar
 while intentos >= 1: #Si le quedan intentos entra y mira si esta la letra o no
     if letra == letras:
-          letra = input ("CORRECTO!! mete orta letra: ") #le pedimos que meta otra cuando acierte y le queden oportunidades
+        letra = input ("CORRECTO!! mete otra letra: ") #le pedimos que meta otra cuando acierte y le queden oportunidades
     else:      
             print(f"{letra} No esta, te quedan {intentos} intentos mas")
             intentos -= 1
