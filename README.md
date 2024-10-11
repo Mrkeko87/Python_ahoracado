@@ -2,7 +2,7 @@
 
 Instrucciones:
 
-El juego seleccionará una palabra aleatoriamente de una lista predefinida.
+# El juego seleccionará una palabra aleatoriamente de una lista predefinida.
 
 El jugador tendrá un número limitado de intentos (por ejemplo 6) para adivinar la palabra letra por letra.
 
