@@ -4,9 +4,9 @@ Instrucciones:
 
 # El juego seleccionará una palabra aleatoriamente de una lista predefinida.
 
-El jugador tendrá un número limitado de intentos (por ejemplo 6) para adivinar la palabra letra por letra.
+# El jugador tendrá un número limitado de intentos (por ejemplo 6) para adivinar la palabra letra por letra.
 
-El jugador deberá introducir una letra en cada intento.
+# El jugador deberá introducir una letra en cada intento.
 
 Si la letra está en la palabra, se revelarán todas las posiciones donde aparece.
 

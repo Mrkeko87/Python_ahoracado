@@ -5,14 +5,15 @@ aleatorio = choice(palabras) #para sacar un numero aleatioro de los que estan gu
 
 
 
-print(aleatorio)
+print("La palabra secreta es " ,aleatorio, ) #solo para saber que palabra es para las pruebas
 
 intentos = 5;
+letra = input ("mete una letra: ") #le pedimos que meta una letra para empezar a jugar
 
-while intentos >= 0:
-    print(f"Tienes {intentos}  intentos mas")
+while intentos >= 1:
+    print(f"No esta, te quedan {intentos} intentos mas")
     intentos -= 1
-    
+    letra = input ("mete una letra") #le pedimos que meta cuando falle y le queden oportunidades
+
 else:
     print("PERDISTE")  # Cuando tienes 6 fallos dice que perdiste
-
