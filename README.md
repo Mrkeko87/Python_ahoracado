@@ -6,3 +6,5 @@ Cambio desde la web
 Cambio desde el PC
 
 Cambio desde pc subir sin comandos
+
+Cambios desde la web sin comandos
