@@ -1,3 +1,3 @@
 # Python_ahorcado
 Ejemplo del ahoracado en python del curso de IA y BIG DATA
-#Primer ejercicio
+#Primer ejercicio desde web
