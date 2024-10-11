@@ -14,6 +14,5 @@ while intentos >= 0:
     intentos -= 1
     
 else:
-    print("perdiste")  # esto lo ejecuta al salir y no es necesario
+    print("PERDISTE")  # Cuando tienes 6 fallos dice que perdiste
 
-respuesta = 's'
