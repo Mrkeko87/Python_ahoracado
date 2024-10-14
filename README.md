@@ -24,5 +24,7 @@ Instrucciones:
 
 El jugador puede intentar adivinar letra varias veces, pero no debe contar como intento fallido si ya ha adivinado esa letra.
 
+el jugador puede ver las letras que ha puesto y no aparecen
+
 # Al finalizar el juego, el programa debe indicar si el jugador ganó o 
 # perdió y mostrar la palabra correcta si pierde.
