@@ -42,8 +42,6 @@ while intentos > 0: #Si le quedan intentos entra y mira si esta la letra o no
         # print (''.join(letras_adivinadas)) #aqui pintamos lo que tiene letras adivinadas que ya tiene cambiados _ por letras
          print ("LETRAS ERRONEAS:".join(letras_erroneas)) #imprimimos la lista de erroneas separadas por espacios sin corchetes con el join
         # letra = input ("mete una letra: ").lower() #le pedimos que meta cuando falle y le queden oportunidades
-
-
    
     if aciertos == numletras: #si aciertos tiene todas los num letras gana
          print("¡Felicidades! Has adivinado la palabra:",aleatorio,)
