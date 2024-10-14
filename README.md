@@ -10,7 +10,7 @@ Instrucciones:
 
 Si la letra está en la palabra, se revelarán todas las posiciones donde aparece.
 
-Si la letra no está en la palabra, se perderá un intento.
+# Si la letra no está en la palabra, se perderá un intento.
 
 El juego termina cuando:
 
