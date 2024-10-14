@@ -22,9 +22,17 @@ Instrucciones:
 
 # Si el jugador adivina una letra correctamente, el guión correspondiente a esa letra será reemplazado por la letra adivinada.
 
-El jugador puede intentar adivinar letra varias veces, pero no debe contar como intento fallido si ya ha adivinado esa letra.
+# El jugador puede intentar adivinar letra varias veces, pero no debe contar como intento fallido si ya ha adivinado esa letra.
 
-# el jugador puede ver las letras que ha puesto y no aparecen
 
 # Al finalizar el juego, el programa debe indicar si el jugador ganó o 
 # perdió y mostrar la palabra correcta si pierde.
+
+# EXTRA:
+# las salidas estan a color
+
+# el jugador puede ver las letras que ha puesto y no aparecen
+
+# pone las letras en minuscula para control
+
+# si mete algo distinto a una letra salta error
