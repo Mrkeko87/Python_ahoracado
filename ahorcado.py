@@ -1,6 +1,6 @@
 from random import * #para poder sacar aleatorios de la lista de nombres
 
-#definimos las variables que vamos a usar:
+#definimos las variables y listas que vamos a usar:
 palabras = ['perro', 'luz', 'cielo', 'programar'] #guardamos las palabras que queremos usar 
 aleatorio = choice(palabras) #para sacar una palabra aleatioria de palabras
 numletras = len(aleatorio)  # Contamos el número de letras en aleatorio
@@ -28,24 +28,24 @@ while intentos > 0: #Si le quedan intentos entra y mira si esta la letra o no
    #con este if miramos si la letra ya se metio antes para que no le cuente el fallo ni el acierto
     if letra in letra_repetida:
         print ( ROJO + "" ,letra, "ya estaba, prueba con otra distinta\n" + RESET )
-        continue #salta de nuevo al inicio del while
+        continue #salta de nuevo al inicio del while para que no pase a otro if
     #vamos a comprobar que solo nos mete letras
     if len(letra) != 1 or not letra.isalpha():
         print( ROJO + "ERROR!!!!Ni simbolos, ni numeros, ni varias letras \n" + RESET)
-        continue #salta de nuevo al inicio del while
+        continue #salta de nuevo al inicio del while para que no pase a otro if
     
-    if letra in letras: #Si la letra que mete esta en lista de letras pone correcto 
+    if letra in letras: #Si la letra que mete esta en lista de letras empieza a recorrerla para ver la poosicion
          for i, l in enumerate(letras): #recorremos todas  las letras y metemos en la posicion i la letra si aparece
             if l == letra: #ahora vemos si la letra es igual a l y si es asi entra
                 letras_adivinadas[i] = letra  # en las lineas pintadas, cambiamos la posicion i por la letra
-                letra_repetida.append(letra) #añadimos a lista letra repetida
+                letra_repetida.append(letra) #añadimos a lista letra repetida al final de la lista
                 aciertos += 1 #sumamos un acierto
          print (VERDE +"¡¡CORRECTO!!\n" + RESET) #le pedimos que meta otra cuando acierte y le queden oportunidades
 
   
-    else:      
+    else:      #si no esta letra en letras o letra_repetida y es una letra
          
-         intentos -= 1
+         intentos -= 1 #se le resta un intento
          if intentos == 0: #si intentos es 0 ya le dice que ha perdido
              print(ROJO + "PERDISTE......La palabra que se escondia es:",aleatorio,"" + RESET) 
              break   #para salir del bucle y terminar el juego
@@ -53,7 +53,7 @@ while intentos > 0: #Si le quedan intentos entra y mira si esta la letra o no
          letras_erroneas.append(letra) #añadimos la letra erronea en la lista
          letra_repetida.append(letra) #añadimos a lista letra repetida
 
-         print(ROJO + f"{letra} No esta, te quedan {intentos} intentos mas\n" + RESET) #con la f ponemos los dos campos entre {}
+         print(ROJO + f"{letra} No esta, te quedan {intentos} intentos mas\n" + RESET) #con la f ponemos los dos campos que estan entre {} concatenar
          print ("LETRAS ERRONEAS: " + ROJO +" - ".join(letras_erroneas) + RESET) #con el mas te pinta todas las letras junto al join
 
    

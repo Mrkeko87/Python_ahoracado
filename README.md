@@ -28,7 +28,8 @@ Instrucciones:
 # Al finalizar el juego, el programa debe indicar si el jugador ganó o 
 # perdió y mostrar la palabra correcta si pierde.
 
-# EXTRA:
+EXTRA:
+
 # las salidas estan a color
 
 # el jugador puede ver las letras que ha puesto y no aparecen
