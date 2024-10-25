@@ -1,5 +1,5 @@
 #from random import * #para poder sacar aleatorios de la lista de nombres
-import random
+import random #para elegir palabra aleatoria de la lista
 #definimos las variables y listas que vamos a usar:
 palabras = ['perro', 'luz', 'cielo', 'programar'] #guardamos las palabras que queremos usar 
 aleatorio = random.choice(palabras) #para sacar una palabra aleatioria de palabras
